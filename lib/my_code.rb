@@ -8,3 +8,7 @@ def map(arr)
   end
   result
 end
+
+def reduce(arr, start = 0)
+  
+end
