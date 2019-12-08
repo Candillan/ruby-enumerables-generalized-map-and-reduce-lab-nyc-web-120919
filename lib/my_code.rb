@@ -10,7 +10,10 @@ def map(arr)
 end
 
 def reduce(arr, start = 0)
-  total = start
+  if start
+    total = start
+  else
+    total = 0
   i = 0
   while i < arr.length do
     total = yield(total, arr[i])
