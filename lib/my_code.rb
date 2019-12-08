@@ -13,5 +13,5 @@ def reduce(arr, start = 0)
   total = start
   i = 0
   while i < arr.length do
-    total +=
+    yield(arr)
 end
